@@ -1,0 +1,45 @@
+*{
+    font-family: 'Kaushan Script';
+}
+
+body{
+    background-image: url(../image/89403-OKS7NE-786.jpg);
+}
+
+header{
+    border-bottom: #13293D solid 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end; /* aligne les éléments de la navbar à droite */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 50px;
+  }
+  
+  nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #13293D;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #FFF28F;
+  }
+
+  .container{
+    border: solid black 5px;
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+  }
