@@ -1,45 +1,121 @@
 *{
-    font-family: 'Kaushan Script';
+  font-family: 'Kaushan Script';
 }
 
-body{
-    background-image: url(../image/89403-OKS7NE-786.jpg);
-}
-
-header{
-    border-bottom: #13293D solid 5px;
-}
 
 nav ul {
-    display: flex;
-    justify-content: flex-end; /* aligne les éléments de la navbar à droite */
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    margin: 0 50px;
-  }
-  
-  nav a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    color: #13293D;
-    font-size: 32px;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    color: #FFF28F;
-  }
+  display: flex;
+  justify-content: flex-end; /* aligne les éléments de la navbar à droite */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-  .container{
-    border: solid black 5px;
-    width: 70%;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-  }
+nav li {
+  margin: 30px;
+}
+
+nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #13293D;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #FFF28F;
+}
+
+/* .container{
+  border: solid black 5px;
+  width: 70%;
+  height: 70vh;
+  display: block;
+  justify-content: center center;
+  margin-top: 50px; 
+} */
+
+.slogan{
+  height: 100%;
+  background-image: url(../image/89403-OKS7NE-786.jpg);
+  background-size: contain;
+  background-position: center;
+
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  margin: 10rem;
+  letter-spacing: 60px;
+  font-size: 35px;
+}
+
+.content1{
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+  letter-spacing: 70px;
+  font-size: 35px;
+}
+
+.content2{
+  display: flex;
+  justify-content: center;
+  margin: 6rem;
+  letter-spacing: 12px;
+  font-size: 35px;
+}
+
+.survole:hover{
+color: white;
+cursor: pointer;
+}
+
+.cou{
+  background-color: purple;
+  height: 20vh;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+nav ul {
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  font-size: 20px;
+}
+
+.container {
+  width: 90%;
+  height: auto;
+  margin: 20px 0;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+nav li {
+  margin: 0 5px;
+}
+
+nav a {
+  font-size: 15px;
+}
+
+.container {
+  width: 95%;
+  height: auto;
+  margin: 10px 0;
+}
+}
