@@ -58,7 +58,7 @@ nav a:hover {
 .container{
   display: block;
   justify-content: space-between;
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
 
 .content{
@@ -86,7 +86,15 @@ cursor: pointer;
 .survole{
   margin-top: 15rem;
   font-size: 5rem;
-  letter-spacing: 50px;
+  letter-spacing: 4.5rem;
+}
+
+#sur{
+  color: #BE4D2E;
+}
+
+#sur:hover{
+  color: white;
 }
 
 
