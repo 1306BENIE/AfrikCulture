@@ -1,5 +1,8 @@
 *{
   font-family: 'Kaushan Script';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header{
@@ -45,33 +48,34 @@ nav a:hover {
   position: relative;
   width: 100%;
   height: 100vh;
-
   background-image: url(../image/89403-OKS7NE-786.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
+
 .container{
   display: block;
   justify-content: space-between;
-  border: #FFF28F solid 5px;
+  margin-top: 10rem;
 }
 
 .content{
   display: flex;
   justify-content: center;
-  border: #FFF28F solid 5px;
 }
 
 .content1{
+  margin-top: 2rem;
   text-align: center;
   justify-content: center;
-  border: green solid 5px; 
- 
 }
 
 .content2{
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
-  border: red solid 5px;
 }
 
 .survole:hover{
@@ -81,7 +85,8 @@ cursor: pointer;
 
 .survole{
   margin-top: 15rem;
-  font-size: 60px;
+  font-size: 5rem;
+  letter-spacing: 50px;
 }
 
 
