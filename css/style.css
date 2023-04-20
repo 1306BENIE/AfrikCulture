@@ -118,7 +118,6 @@ p{
 }
 
 .histoire{
-  display: flex;
   justify-content: center;
   align-items: center;
   background-image: url(../image/18774813_6034768.jpg);
@@ -126,20 +125,50 @@ p{
   width: 100%;
   height: 100vh;
 }
+.histoire h2{
+  padding-top: 5rem;
+  text-align: center;
+  font-size: 3rem;
+  border-bottom: 0.5rem solid black;
+  max-width: fit-content;
+  margin: 0 auto;
+}
 
 #histoire{
   display: flex;
   justify-content: space-between;
   width: 80%;
+  margin: auto;
 }
 
 .histoire1, .histoire2, .histoire3{
   justify-content: center;
+  margin-top: 5rem;
   text-align: center;
   width: 20rem;
   height: 30rem;
   border: #13293D solid 1px;
   border-radius: 20px;
+}
+
+.histoire1{
+  background-image: url(../image/revolte-du-peuple-abbe-en-1910-contre-la-colonisation-le-colonialisme-francais-et-l-immigration-en-cote-d-ivoire-afrique-de-l-ouest-1910-illustration-ancienne-2e97jjg.jpeg);
+  background-size: cover;
+}
+
+.histoire2{
+background-image: url(../image/6a00d8341ce44553ef0133f5d39bcb970b-320wi.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+
+}
+
+.histoire3{
+  background-image: url(../image/54372152_1006.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 #text1, #text2, #text3{
@@ -150,6 +179,68 @@ p{
   height: 2rem;
   margin-top: 28rem;
   font-size: 20px;
+}
+.btnvoirplus{
+  width: 10rem;
+  height: 3rem;
+  background-color: #13293D;
+  border: 1px solid #13293D;
+  border-radius: 2rem;
+  color: white;
+  text-align: center;
+  margin-left: 60rem;
+  margin-top: 5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.ilaime{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #230C28;
+}
+
+.aime1{
+  width: 300px;
+  height: 300px;
+  border: #BE4D2E dotted 0.5rem;
+  border-radius: 50%;
+background-image: url(../image/jeunes-filles-passent-du-temps-maison.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.aime2{
+  width: 300px;
+  height: 300px;
+  border: #BE4D2E dotted 0.5rem;
+  border-radius: 50%;
+background-image: url(../image/portrait-homme-afro-americain-maison.jpg);
+background-size: cover;
+
+}
+
+.aime3{
+  width: 300px;
+  height: 300px;
+  border: #BE4D2E dotted 0.5rem;
+  border-radius: 50%;
+background-image: url(../image/jeune-femme-afro-americaine-souriante-regardant-loin.jpg);
+background-size: cover;
+
+}
+
+.aime4{
+  width: 300px;
+  height: 300px;
+  border: #BE4D2E dotted 0.5rem;
+  border-radius: 50%;
+ background-image: url(../image/portrait-jeune-garcon-africain.jpg);
+ background-size: cover;
+  
 }
 
 
