@@ -1,0 +1,137 @@
+*{
+    font-family: 'Kaushan Script';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  body{
+    max-width: 1400px;
+    margin: auto;
+    background-color: #FFF28F;
+  }
+
+  .principale{
+    background-image: url("../image/89403-OKS7NE-786.jpg");
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 150vh;
+  }
+  
+  header{
+    border-bottom: #13293D solid 5px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end; /* aligne les éléments de la navbar à droite */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 30px;
+  }
+  
+  nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #13293D;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #FFF28F;
+  }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 140vh;
+ }
+
+
+.histoire1, .histoire2, .histoire3, .histoire4, .histoire5, .histoire6, .histoire7, .histoire8, .histoire9{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    text-align: center;
+    width: 17rem;
+    height: 20rem;
+    border: #13293D solid 1px;
+    border-radius: 20px;
+}
+
+.histoire1{
+    background-image: url(../image/revolte-du-peuple-abbe-en-1910-contre-la-colonisation-le-colonialisme-francais-et-l-immigration-en-cote-d-ivoire-afrique-de-l-ouest-1910-illustration-ancienne-2e97jjg.jpeg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.histoire2{
+    background-image: url(../image/6a00d8341ce44553ef0133f5d39bcb970b-320wi.jpeg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.histoire3{
+    background-image: url(../image/54372152_1006.jpeg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.histoire4{
+    background-image: url(../image/1.jpeg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.histoire5{
+    background-image: url(../image/2.jpeg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.histoire6{
+    background-image: url(../image/3.jpeg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.histoire7{
+    background-image: url(../image/4.jpeg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.histoire8{
+    background-image: url(../image/5.jpeg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.histoire9{
+    background-image: url(../image/6.jpeg);
+    background-size: cover;
+    background-position: center; 
+}
+
+#text1, #text2, #text3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: white;
+    width: 100%;
+    border-radius: 50px;
+    height: 2rem;
+    margin-top: 17.9rem;
+    font-size: 20px;
+  }
+

@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+body{
+  max-width: 1400px;
+  margin: auto;
+  background-color: #FFF28F;
+}
+
 header{
   border-bottom: #13293D solid 5px;
 }
@@ -85,8 +91,8 @@ cursor: pointer;
 
 .survole{
   margin-top: 15rem;
-  font-size: 5rem;
-  letter-spacing: 4.5rem;
+  font-size: 3rem;
+  letter-spacing: 3rem;
 }
 
 #sur{
@@ -188,7 +194,7 @@ background-position: center center;
   border-radius: 2rem;
   color: white;
   text-align: center;
-  margin-left: 60rem;
+  margin-left: 40rem;
   margin-top: 5rem;
   font-size: 2rem;
   cursor: pointer;
