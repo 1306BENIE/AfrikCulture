@@ -50,88 +50,70 @@
     color: #FFF28F;
   }
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    height: 140vh;
- }
-
-
-.histoire1, .histoire2, .histoire3, .histoire4, .histoire5, .histoire6, .histoire7, .histoire8, .histoire9{
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5rem;
-    margin-right: 5rem;
-    text-align: center;
-    width: 17rem;
-    height: 20rem;
-    border: #13293D solid 1px;
-    border-radius: 20px;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.histoire1{
-    background-image: url(../image/revolte-du-peuple-abbe-en-1910-contre-la-colonisation-le-colonialisme-francais-et-l-immigration-en-cote-d-ivoire-afrique-de-l-ouest-1910-illustration-ancienne-2e97jjg.jpeg);
-    background-size: cover;
-    background-position: center; 
+.histoire1,
+.histoire2,
+.histoire3,
+.histoire4,
+.histoire5,
+.histoire6,
+.histoire7,
+.histoire8,
+.histoire9 {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
 }
 
-.histoire2{
-    background-image: url(../image/6a00d8341ce44553ef0133f5d39bcb970b-320wi.jpeg);
-    background-size: cover;
-    background-position: center; 
+.histoire1 img,
+.histoire2 img,
+.histoire3 img,
+.histoire4 img,
+.histoire5 img,
+.histoire6 img,
+.histoire7 img,
+.histoire8 img,
+.histoire9 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.histoire3{
-    background-image: url(../image/54372152_1006.jpeg);
-    background-size: cover;
-    background-position: center; 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
-.histoire4{
-    background-image: url(../image/1.jpeg);
-    background-size: cover;
-    background-position: center; 
+.text {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.histoire5{
-    background-image: url(../image/2.jpeg);
-    background-size: cover;
-    background-position: center; 
+.histoire1:hover .overlay,
+.histoire2:hover .overlay,
+.histoire3:hover .overlay,
+.histoire4:hover .overlay,
+.histoire5:hover .overlay,
+.histoire6:hover .overlay,
+.histoire7:hover .overlay,
+.histoire8:hover .overlay,
+.histoire9:hover .overlay {
+  opacity: 1;
 }
-
-.histoire6{
-    background-image: url(../image/3.jpeg);
-    background-size: cover;
-    background-position: center; 
-}
-
-.histoire7{
-    background-image: url(../image/4.jpeg);
-    background-size: cover;
-    background-position: center; 
-}
-
-.histoire8{
-    background-image: url(../image/5.jpeg);
-    background-size: cover;
-    background-position: center; 
-}
-
-.histoire9{
-    background-image: url(../image/6.jpeg);
-    background-size: cover;
-    background-position: center; 
-}
-
-#text1, #text2, #text3{
-    font-family: 'Montserrat Alternates', sans-serif;
-    background-color: white;
-    width: 100%;
-    border-radius: 50px;
-    height: 2rem;
-    margin-top: 17.9rem;
-    font-size: 20px;
-  }
-
