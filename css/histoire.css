@@ -51,7 +51,10 @@
   }
 
 .container {
+  position: relative;
   display: flex;
+  width: 100%;
+  height: 120vh;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -66,9 +69,9 @@
 .histoire8,
 .histoire9 {
   position: relative;
+  margin: 5rem;
   width: 300px;
   height: 200px;
-  margin: 20px;
 }
 
 .histoire1 img,
@@ -80,8 +83,10 @@
 .histoire7 img,
 .histoire8 img,
 .histoire9 img {
-  width: 100%;
-  height: 100%;
+  width: 15rem;
+  height: 20rem;
+  border: #13293D solid 2px;
+  border-radius: 20px;
   object-fit: cover;
 }
 
@@ -89,9 +94,11 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  width: 15rem;
+  height: 20rem;
+  border: #13293D solid 2px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.682);
   opacity: 0;
   transition: opacity 0.5s;
   display: flex;
@@ -116,4 +123,28 @@
 .histoire8:hover .overlay,
 .histoire9:hover .overlay {
   opacity: 1;
+}
+
+
+#text1, #text2, #text3, #text4, #text5, #text6, #text7, #text8, #text9{
+  font-family: 'Montserrat Alternates', sans-serif;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  bottom: 2.5rem;
+ 
+}
+
+#text8 h4{
+  border: #13293D solid 2px;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 20px;
+  font-size: 25px;
+
 }
