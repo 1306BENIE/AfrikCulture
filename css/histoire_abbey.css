@@ -2,6 +2,10 @@
     font-family: 'Kaushan Script';
   }
   
+body
+{
+  background-image: url('../image/12900265_123Z_2101.w020.n001.951B.p15.951.jpg');
+}
   
   nav ul {
     display: flex;
@@ -20,7 +24,7 @@
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color: #13293D;
+    color: #e38e00;
     font-size: 30px;
     font-weight: bold;
   }
@@ -76,12 +80,13 @@
   {
     width: 77%;
     font-size: 25px;
-    color: #13293D;
+    color: #FFF28F;
   }
 
   .description_gauche
   {
     width: 23%;
+    color: #FFF28F;
 
   }
 
@@ -100,7 +105,7 @@
     font-size: 25px;
     left: 17%;
     margin-top: 06%;
-    color: #13293D;
+    color: #FFF28F;
   }
 
   .bouton
@@ -108,8 +113,8 @@
     width: 20%;
     text-align: center;
     font-size: 25px;
-    color: #13293D;
-    border:1px solid #13293D;
+    color: #e38e00;
+    border:1px solid #e38e00;
     position: relative;
     left: 40%;
     margin-top: 10%;
@@ -118,11 +123,17 @@
   .bouton button
   {
     width: 40%;
-    background-color: #13293D;
+    background-color: #e38e00;
     color: #FFF;
     position: relative;
-    left: 7%;
+    left: 10.8%;
     height: 05vh;
     font-size: 25px;
     border: none;
+  }
+
+  .bouton button a
+  {
+    text-decoration: none;
+    color: #13293D;
   }
