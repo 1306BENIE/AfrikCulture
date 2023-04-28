@@ -62,7 +62,7 @@ nav a:hover {
 }
 
 .container{
-  display: block;
+  display: block; 
   justify-content: space-between;
   margin-top: 2rem;
 }

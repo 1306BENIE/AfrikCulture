@@ -1,128 +1,140 @@
 *{
-    font-family: 'Kaushan Script';
-  }
-  
-  
-  nav ul {
-    display: flex;
-    justify-content: flex-end; /* aligne les éléments de la navbar à droite */
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    margin: 30px;
-  }
-  
-  nav a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    color: #13293D;
-    font-size: 30px;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    color: #FFF28F;
-  }
-  
-  @media screen and (max-width: 768px) {
-  nav ul {
-    justify-content: center;
-  }
-  
-  nav li {
-    margin: 0 10px;
-  }
-  
-  nav a {
-    font-size: 20px;
-  }
-  
-  .container {
-    width: 90%;
-    height: auto;
-    margin: 20px 0;
-  }
-  
-  }
-  
-  @media screen and (max-width: 480px) {
-  nav li {
-    margin: 0 5px;
-  }
-  
-  nav a {
-    font-size: 15px;
-  }
-  
-  .container {
-    width: 95%;
-    height: auto;
-    margin: 10px 0;
-  }
-  }
+  font-family: 'Kaushan Script';
+}
 
-  .description
-  {
-    width: 100%;
-    display: flex;
-  }
+body
+{
+background-image: url('../image/12900265_123Z_2101.w020.n001.951B.p15.951.jpg');
+}
 
-  .description_droit
-  {
-    width: 77%;
-    font-size: 25px;
-    color: #13293D;
-  }
+nav ul {
+  display: flex;
+  justify-content: flex-end; /* aligne les éléments de la navbar à droite */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-  .description_gauche
-  {
-    width: 23%;
+nav li {
+  margin: 30px;
+}
 
-  }
+nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #e38e00;
+  font-size: 30px;
+  font-weight: bold;
+}
 
-  .image
-  {
-    width: 55%;
-    position: relative;
-    left: 25%;
-    margin-top: 06%;
-  }
+nav a:hover {
+  color: #FFF28F;
+}
 
-  .texte
-  {
-    position: relative;
-    width: 70%;
-    font-size: 25px;
-    left: 17%;
-    margin-top: 06%;
-    color: #13293D;
-  }
+@media screen and (max-width: 768px) {
+nav ul {
+  justify-content: center;
+}
 
-  .bouton
-  {
-    width: 20%;
-    text-align: center;
-    font-size: 25px;
-    color: #13293D;
-    border:1px solid #13293D;
-    position: relative;
-    left: 40%;
-    margin-top: 10%;
-  }
+nav li {
+  margin: 0 10px;
+}
 
-  .bouton button
-  {
-    width: 40%;
-    background-color: #13293D;
-    color: #FFF;
-    position: relative;
-    left: 7%;
-    height: 05vh;
-    font-size: 25px;
-    border: none;
-  }
+nav a {
+  font-size: 20px;
+}
+
+.container {
+  width: 90%;
+  height: auto;
+  margin: 20px 0;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+nav li {
+  margin: 0 5px;
+}
+
+nav a {
+  font-size: 15px;
+}
+
+.container {
+  width: 95%;
+  height: auto;
+  margin: 10px 0;
+}
+}
+
+.description
+{
+  width: 100%;
+  display: flex;
+}
+
+.description_droit
+{
+  width: 77%;
+  font-size: 25px;
+  color: #FFF28F;
+}
+
+.description_gauche
+{
+  width: 23%;
+  color: #FFF28F;
+
+}
+
+.image
+{
+  width: 55%;
+  position: relative;
+  left: 25%;
+  margin-top: 06%;
+}
+
+.texte
+{
+  position: relative;
+  width: 70%;
+  font-size: 25px;
+  left: 17%;
+  margin-top: 06%;
+  color: #FFF28F;
+}
+
+.bouton
+{
+  width: 20%;
+  text-align: center;
+  font-size: 25px;
+  color: #e38e00;
+  border:1px solid #e38e00;
+  position: relative;
+  left: 40%;
+  margin-top: 10%;
+}
+
+.bouton button
+{
+  width: 40%;
+  background-color: #e38e00;
+  color: #FFF;
+  position: relative;
+  left: 10.8%;
+  height: 05vh;
+  font-size: 25px;
+  border: none;
+}
+
+.bouton button a
+{
+  text-decoration: none;
+  color: #13293D;
+}
+
