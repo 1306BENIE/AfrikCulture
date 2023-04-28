@@ -1,0 +1,154 @@
+*{
+    font-family: 'Kaushan Script';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    max-width: 1400px;
+    margin: auto;
+    background-color: #FFF28F;
+  }
+  
+  header{
+    border-bottom: #13293D solid 5px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end; /* aligne les éléments de la navbar à droite */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 30px;
+  }
+  
+  nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #E38E00;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #FFF28F;
+  }
+  
+  /* .container{
+    border: solid black 5px;
+    width: 70%;
+    height: 70vh;
+    display: block;
+    justify-content: center center;
+    margin-top: 50px; 
+  } */
+  
+  .slogan{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/9.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  }
+
+  .entete {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 900px;
+    height: 66px;
+    left: calc(50% - 900px/2);
+    top: 157px;
+    
+    background: rgba(35, 12, 40, 0.87);
+    border-radius: 20px;
+    color: white;
+    font-size: 1.5rem;
+} 
+
+.laisser{
+    position: absolute;
+width: 561px;
+height: 540px;
+left: calc(50% - 561px/2 - 324.5px);
+top: calc(50% - 540px/2);
+
+background: rgba(35, 12, 40, 0.87);
+border-radius: 20px;
+}
+
+.laisse1{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 563px;
+height: 66px;
+left: -1px;
+top: 22px;
+color: white;
+font-size: 2rem;
+
+border-bottom: 2px solid #FFFFFF;
+}
+
+.laisse2{
+position: relative;
+display: flex;
+justify-content: center;
+text-align: center;
+font-size: 1.5rem;
+width: 450px;
+height: 70px;
+left: calc(50% - 450px/2 + 0.5px);
+top: 106px;
+
+background: #822B3E;
+border-radius: 10px;
+
+}
+
+.laisse3{
+    position: absolute;
+width: 450px;
+height: 70px;
+left: 56px;
+top: 220px;
+text-align: center;
+background: #822B3E;
+border-radius: 10px;
+}
+
+.laisse4{
+    position: absolute;
+width: 450px;
+height: 70px;
+left: 56px;
+margin-top: 20rem;
+text-align: center;
+background: #822B3E;
+border-radius: 10px;
+}
