@@ -138,3 +138,17 @@ nav a {
   color: #13293D;
 }
 
+.footer{
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #13293D;
+  color: white;
+}
+
+.footer p{
+  font-size: 1.2rem;
+  font-family: 'Kaushan Script';
+
+}

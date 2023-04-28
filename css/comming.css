@@ -152,3 +152,19 @@ text-align: center;
 background: #822B3E;
 border-radius: 10px;
 }
+
+.footer{
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #13293D;
+  color: white;
+  margin-top: 55rem;
+}
+
+.footer p{
+  font-size: 1.2rem;
+  font-family: 'Kaushan Script';
+
+}

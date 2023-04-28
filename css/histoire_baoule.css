@@ -1,54 +1,58 @@
 *{
-    font-family: 'Kaushan Script';
-  }
+  font-family: 'Kaushan Script';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+body{
+  max-width: 1400px;
+  margin: auto;
+  background-color: #FFF28F;
+  background-image: url("../image/12900265_123Z_2101.w020.n001.951B.p15.951.jpg");
+}
+
+.principale{
+  background-image: url("../image/89403-OKS7NE-786.jpg");
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  width: 100%;
+  height: 150vh;
+}
+
+header{
+  border-bottom: #13293D solid 5px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end; /* aligne les éléments de la navbar à droite */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 30px;
+}
+
+nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #E38E00;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #FFF28F;
+}
   
-  
-  nav ul {
-    display: flex;
-    justify-content: flex-end; /* aligne les éléments de la navbar à droite */
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    margin: 30px;
-  }
-  
-  nav a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    color: #13293D;
-    font-size: 30px;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    color: #FFF28F;
-  }
-  
-  @media screen and (max-width: 768px) {
-  nav ul {
-    justify-content: center;
-  }
-  
-  nav li {
-    margin: 0 10px;
-  }
-  
-  nav a {
-    font-size: 20px;
-  }
-  
-  .container {
-    width: 90%;
-    height: auto;
-    margin: 20px 0;
-  }
-  
-  }
   
   @media screen and (max-width: 480px) {
   nav li {
@@ -74,14 +78,17 @@
 
   .description_droit
   {
+    margin-top: 2rem;
     width: 77%;
     font-size: 25px;
-    color: #13293D;
+    color: white;
   }
 
   .description_gauche
   {
+    margin-top: 2rem;
     width: 23%;
+    color: white;
 
   }
 
@@ -100,7 +107,8 @@
     font-size: 25px;
     left: 17%;
     margin-top: 06%;
-    color: #13293D;
+    color: white;
+    line-height: 3rem;
   }
 
   .bouton
@@ -125,4 +133,20 @@
     height: 05vh;
     font-size: 25px;
     border: none;
+  }
+
+
+  .footer{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #13293D;
+    color: white;
+  }
+  
+  .footer p{
+    font-size: 1.2rem;
+    font-family: 'Kaushan Script';
+  
   }

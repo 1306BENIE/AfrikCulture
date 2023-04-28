@@ -1,10 +1,18 @@
 *{
   font-family: 'Kaushan Script';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body
-{
-background-image: url('../image/12900265_123Z_2101.w020.n001.951B.p15.951.jpg');
+body{
+  max-width: 1400px;
+  margin: auto;
+  background-color: #FFF28F;
+}
+
+header{
+  border-bottom: #13293D solid 5px;
 }
 
 nav ul {
@@ -24,7 +32,7 @@ nav a {
   flex-direction: column;
   align-items: center;
   text-decoration: none;
-  color: #e38e00;
+  color: #13293D;
   font-size: 30px;
   font-weight: bold;
 }
@@ -136,4 +144,20 @@ nav a {
 {
   text-decoration: none;
   color: #13293D;
+}
+
+
+.footer{
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #13293D;
+  color: white;
+}
+
+.footer p{
+  font-size: 1.2rem;
+  font-family: 'Kaushan Script';
+
 }

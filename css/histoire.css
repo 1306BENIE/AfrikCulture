@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
   
   }
   
@@ -146,5 +148,20 @@
   background-color: aliceblue;
   border-radius: 20px;
   font-size: 25px;
+
+}
+
+.footer{
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #13293D;
+  color: white;
+}
+
+.footer p{
+  font-size: 1.2rem;
+  font-family: 'Kaushan Script';
 
 }

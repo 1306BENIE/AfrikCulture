@@ -1,37 +1,46 @@
 *{
-    font-family: 'Kaushan Script';
-  }
-  
-body
-{
-  background-image: url('../image/12900265_123Z_2101.w020.n001.951B.p15.951.jpg');
+  font-family: 'Kaushan Script';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-  
-  nav ul {
-    display: flex;
-    justify-content: flex-end; /* aligne les éléments de la navbar à droite */
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    margin: 30px;
-  }
-  
-  nav a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    color: #e38e00;
-    font-size: 30px;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    color: #FFF28F;
-  }
+
+body{
+  max-width: 1400px;
+  margin: auto;
+  background-color: #FFF28F;
+  background-image: url(../image/12900265_123Z_2101.w020.n001.951B.p15.951.jpg);
+}
+
+header{
+  border-bottom: #13293D solid 5px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end; /* aligne les éléments de la navbar à droite */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 30px;
+}
+
+nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #E38E00;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #FFF28F;
+}
   
   @media screen and (max-width: 768px) {
   nav ul {
@@ -70,23 +79,19 @@ body
   }
   }
 
-  .description
-  {
-    width: 100%;
-    display: flex;
-  }
-
   .description_droit
   {
+    margin-top: 2rem;
     width: 77%;
     font-size: 25px;
-    color: #FFF28F;
+    color: white;
   }
 
   .description_gauche
   {
+    margin-top: 2rem;
     width: 23%;
-    color: #FFF28F;
+    color: white;
 
   }
 
@@ -105,7 +110,8 @@ body
     font-size: 25px;
     left: 17%;
     margin-top: 06%;
-    color: #FFF28F;
+    color: white;
+    line-height: 3rem;
   }
 
   .bouton
@@ -136,4 +142,20 @@ body
   {
     text-decoration: none;
     color: #13293D;
+  }
+
+
+  .footer{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #13293D;
+    color: white;
+  }
+  
+  .footer p{
+    font-size: 1.2rem;
+    font-family: 'Kaushan Script';
+  
   }
