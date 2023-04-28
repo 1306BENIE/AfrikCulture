@@ -95,3 +95,18 @@
 	background-color: #f2f0f0;
 	color: #13293D;
   }
+
+  .retour
+  {
+	position: relative;
+	margin-top: 50px;
+	left: 120px;
+
+  }
+
+  .retour a
+  {
+	text-decoration: none;
+	color: #13293D;
+
+  }
